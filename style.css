@@ -1,0 +1,32 @@
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background: #f4f4f4;
+    font-family:Arial;
+}
+
+.player{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 0 15px rgba(0,0,0,0.2);
+    text-align:center;
+    width:300px;
+}
+
+button{
+    padding:10px 15px;
+    margin:10px;
+    font-size:20px;
+    cursor:pointer;
+}
+
+#progress{
+    width:100%;
+}
+
+.volume{
+    margin-top:15px;
+}
